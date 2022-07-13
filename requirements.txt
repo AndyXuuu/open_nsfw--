@@ -1,5 +1,4 @@
 aiodns
 aiohttp
 cchardet
-cffi
 uvloop==0.14.0
