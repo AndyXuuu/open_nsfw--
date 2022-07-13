@@ -16,9 +16,7 @@ WORKDIR /opt/open_nsfw--
 
 RUN git clone https://github.com/AndyXuuu/open_nsfw--.git /opt/open_nsfw-- \
  && git checkout master
-
-RUN pip3 install cffi
-
+ 
 RUN pip3 install -r requirements.txt
 
 EXPOSE 8080
