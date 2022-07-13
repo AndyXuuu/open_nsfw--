@@ -15,7 +15,7 @@ You need to logout and login again for this to take effect.
 
 Now build the image, this might take a while:
 ``` shell
-docker build -t open_nsfw https://raw.githubusercontent.com/rahiel/open_nsfw--/master/Dockerfile
+docker build -t open_nsfw https://raw.githubusercontent.com/AndyXuuu/open_nsfw--/master/Dockerfile
 ```
 
 Then you can start the API:
